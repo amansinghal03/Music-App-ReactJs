@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // background-color: red;
+    background: url('https://wallpaperaccess.com/full/1792306.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+h1{
+    // background-color: red;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+
+h2,h3{
+    color: rgb(249, 249, 249)
+}
+@import './player';
+@import './song'; 
+@import './library'; 
+@import './nav'; 
